@@ -1,16 +1,8 @@
-header {
-  width: 100%;
-  height: 100%;
-}
 body {
   font-size: 16px;
   background-image: url(./image/catal.jpg);
-  background-position: centre;
-  image-resolution: 300dpi;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 10%;
-
 }
 .banner {
   margin: 20px 0;
@@ -22,10 +14,9 @@ body {
   font-family: "Helvetica Neue Custom", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 100%;
-  display: inline block;
   height: 100px;
   width: 500px;
-  padding: auto;
+  padding: 1rem 1rem;
   text-align: left;
 }
 .abk {
@@ -43,44 +34,56 @@ nav {
   margin-top: 10%;
   margin-right: 5%;
   padding: 10px 0;
-  border: 2px solid;
-  width: 100%;
-  position: fixed;
-  background-color: cornflowerblue;
-}
-nav li {
+  background: transparent;
   color: wheat;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 20px;
-  width: 30%;
+}
+.abtme, 
+.recent, 
+.pop{
+  color: wheat;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  width: 15%;
   display: inline-block;
   padding: 0.75rem 1.25rem;
-}
-.description {
-  max-width: 100%;
-  height: 100%;
-  margin: 0 12rem;
+  border: 2px solid white;
   position: fixed;
-  top: 50%;
-  bottom: 20%;
-  width: auto;
-  z-index: 2;
-  background-color: brown;
-  padding: 1rem 6rem;
 }
-.second_desc {
-  max-width: 960px;
-  margin: 0 12rem;
-  position: fixed;
-  top: 50%;
-  bottom: 20%;
-  width: auto;
-  z-index: 2;
-  background-color: brown;
-  padding: 1rem 6rem;
+.abtme{
+  left: 45%;
+  right: 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.recent{
+  margin-left: 200px;
+    border-right-width: 2px;
+    left: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pop{
+  padding-right: 10px;
+    margin-left: 400px;
+    margin-right: 100px;
+    left: 55%;
+    padding-left: 10px;
 }
 
+h2{
+  font-family: fantasy;
+  color: darkturquoise;
+}
+#article{
+  background-color: firebrick;
+  padding: 2rem 2rem;
+  margin: 400px 50px;
+  
+}
 footer {
   background-color: #333;
   color: #fff;
