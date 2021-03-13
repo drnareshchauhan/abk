@@ -40,17 +40,25 @@ nav {
   font-weight: 600;
   font-size: 20px;
 }
+nav li:hover {
+  background-color:olivedrab;
+  transition: 180ms font-size linear;
+  font-size: 1.2em;
+
+}
 .abtme, 
 .recent, 
 .pop{
-  color: wheat;
+  color:skyblue;
   font-family: "Raleway", sans-serif;
+  text-align: center;
   font-weight: 600;
   font-size: 20px;
   width: 15%;
   display: inline-block;
   padding: 0.75rem 1.25rem;
   border: 2px solid white;
+  border-radius: 10px;
   position: fixed;
 }
 .abtme{
