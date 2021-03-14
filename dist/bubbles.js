@@ -302,12 +302,12 @@ function Vector(x, y, z) {
   var ctx;
   var pointCollection;
   
-  document.rotationForce = 0.0;
+  document.rotationForce = 0.01;
   document.Friction = 0.95;
   // Size the text
   document.sizeRatio = window.innerWidth / 1500;
   // Global mouse-to-point interaction threshold (px)
-  document.mouseResponseThreshold = 50;
+  document.mouseResponseThreshold = 150;
   
   var white = [0, 0, 100];
   var black = [0, 0, 27];
@@ -317,7 +317,7 @@ function Vector(x, y, z) {
   var blue = [196, 77, 55];
   var purple = [280, 50, 60];
   
-  var letterColors = [red, green, red, blue, purple];
+  var letterColors = [red, orange, green, blue, purple];
   document.letterColors = letterColors;
   
   // Bootstrap canvas size
