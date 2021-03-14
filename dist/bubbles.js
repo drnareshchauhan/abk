@@ -307,7 +307,7 @@ function Vector(x, y, z) {
   // Size the text
   document.sizeRatio = window.innerWidth / 1500;
   // Global mouse-to-point interaction threshold (px)
-  document.mouseResponseThreshold = 150;
+  document.mouseResponseThreshold = 100;
   
   var white = [0, 0, 100];
   var black = [0, 0, 27];
