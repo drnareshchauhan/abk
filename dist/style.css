@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 14px;
   background-image: url(./image/catal.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,6 +26,7 @@ body {
   left: 230px;
   padding-top: 30px;
   margin-top: 50px;
+  border-bottom: 2px solid black;
 }
 .abk {
   font-size: 90%;
@@ -64,10 +65,10 @@ nav li:hover {
   font-size: 20px;
   width: 15%;
   display: inline-block;
-  padding: 0.75rem 1.25rem;
-  border: 2px solid white;
+  padding: .36rem .36rem;
   border-radius: 10px;
   position: fixed;
+  border-bottom: 1px solid seashell;
 }
 .abtme{
   left: 45%;
