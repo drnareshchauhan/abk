@@ -29,6 +29,7 @@ body {
   border-bottom: 2px solid seashell;
   border-radius: 20px;
 }
+
 .abk {
   font-size: 90%;
   color: tomato;
@@ -49,12 +50,12 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 20px;
+  
 }
 nav li:hover {
-  background-color:olivedrab;
-  transition: 180ms font-size linear;
+  background-color:limegreen;
+  transition: 750ms font-size linear;
   font-size: 1.2em;
-
 }
 .abtme, 
 .recent, 
