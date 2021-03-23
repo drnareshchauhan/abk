@@ -42,9 +42,10 @@ body {
 }
 nav {
   margin-left: auto;
-  margin-top: 10%;
-  margin-right: 5%;
-  padding: 10px 0;
+  margin-top: 150px;
+  margin-right: 0;
+  padding: 10px 0 50px 0;
+  height: 100px;
   background: transparent;
   color: wheat;
   font-family: "Raleway", sans-serif;
@@ -71,6 +72,7 @@ nav li:hover {
   border-radius: 10px;
   position: fixed;
   border-bottom: 1px solid seashell;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .abtme{
   left: 45%;
