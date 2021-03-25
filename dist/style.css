@@ -1,6 +1,6 @@
 body {
   font-size: 14px;
-  background-image: url(./image/catal.jpg);
+  background-image: url(./image/catal.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -29,7 +29,6 @@ body {
   border-bottom: 2px solid seashell;
   border-radius: 20px;
 }
-
 .abk {
   font-size: 90%;
   color: tomato;
